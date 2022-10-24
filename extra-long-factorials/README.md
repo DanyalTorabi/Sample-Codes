@@ -1,13 +1,13 @@
 # Problem
-## The factorial of the integer n, written n!, is defined as:
+The factorial of the integer n, written n!, is defined as:
 	n! = n * (n-1) * (n-2) * ... * 3 * 2 * 1
-## Calculate and print the factorial of a given integer.
+Calculate and print the factorial of a given integer.
 
 For example, if n=30, we calculate 30 * 29 * 28 * ...  * 3 * 2 * 1 and get 265252859812191058636308480000000 .
 
 ## Function Description
 
-Complete the extraLongFactorials function in the editor below. It should print the result and return.
+Complete the extraLongFactorials function in the editor below. It should print the result in the standard output.
 
 extraLongFactorials has the following parameter(s):
 
@@ -17,22 +17,22 @@ Note: Factorials of n>20 can't be stored even in a 64-bit long long variable. Bi
 
 We recommend solving this challenge using BigIntegers.
 
-## Input Format
+### Input Format
 
-Input consists of a single integer n
+Input consists of a single integer n.
 
-## Constraints
+### Constraints
 1 <= n <= 100
 
 Output Format
 
 Print the factorial of n.
 
-## Sample Input
+### Sample Input
 25
-## Sample Output
+### Sample Output
 15511210043330985984000000
-## Explanation
+### Explanation
 25 * 24 * 23 * ... * 3 * 2 * 1
 
 
