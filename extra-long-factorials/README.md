@@ -40,14 +40,21 @@ Print the factorial of n.
 To solve the problem what comes to mind is to use one of the traditional calculation of multiplication, breaking numbers to digits and multiply together as shown below:
 
    123
-  ** 46
+
+  \* 46
+  
 ======
+
    138 =   3 * 46 = 1   * ( 3 * 6 + ( 10 * ( 3 * 4 ) ) )
- + 920 =  20 * 46 = 10  * ( 2 * 6 + ( 10 * ( 2 * 4 ) ) )
+
+  +920 =  20 * 46 = 10  * ( 2 * 6 + ( 10 * ( 2 * 4 ) ) )
+
  +4600 = 100 * 46 = 100 * ( 1 * 6 + ( 10 * ( 1 * 4 ) ) )
+
 ======
+
   5658
 
 123 * 45 = 5658
 
-For using this method numbers should be separated into array of digits. Also there is a need to have two functions to act as the `+` and `*` operator.
+Using this method requiers that numbers should be separated into array of digits. Also there is a need to have two functions to act as the `+` and `*` operator on array of digits.
